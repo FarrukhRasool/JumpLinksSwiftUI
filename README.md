@@ -51,8 +51,12 @@ struct MyView: View {
 
 📦 Installation
 Add the package to your project via Swift Package Manager:
+
 https://github.com/FarrukhRasool/ScrollViewTargetBehaviourKit.git
-Or manually include the source files in your project.
+
+Or 
+
+manually include the source files in your project.
 
 📄 License
 MIT License. Feel free to use and modify for personal or commercial projects.
