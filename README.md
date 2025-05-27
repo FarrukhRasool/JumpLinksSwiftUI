@@ -16,11 +16,9 @@ A SwiftUI-based framework for creating **interactive, scroll-linked tab bar navi
 
 ## 📸 Preview
 
-| Tab Bar | Scroll-Aware Behavior |
-|--------|------------------------|
-| ![TabBarMenuView](https://user-images.githubusercontent.com/your-preview-gif-1.gif) | ![ScrollSync](https://user-images.githubusercontent.com/your-preview-gif-2.gif) |
-
-> Add your own demo GIFs or screen recordings here
+| Scroll-Aware Behavior |
+|------------------------|
+| ![ScrollSync](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzRtY3ljMnViNnl6cXVseDd3c2NqY3V0N2ZzcDkwZWp6bTAwYzJ0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rxreBE1Pm5i8Pq7pjT/giphy.gif) |
 
 ---
 
@@ -68,5 +66,3 @@ Developed by Farrukh Rasool
 Suggestions, bugs, or ideas? Feel free to open an issue!
 
 ---
-
-Let me know if you'd like help customizing any section (e.g., adding GIFs or linking your GitHub repo correctly).
