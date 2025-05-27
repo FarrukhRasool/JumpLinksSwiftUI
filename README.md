@@ -1,38 +1,40 @@
-# 🧭 JumpLinksSwiftUI
+# JumpLinksSwiftUI
 
-A SwiftUI-based framework for creating **interactive, scroll-linked tab bar navigation**. This kit synchronizes a tab menu with scrollable sections — enabling smooth user experiences for content-heavy views like onboarding flows, dynamic forms, and settings pages.
+**JumpLinksSwiftUI** is a modular SwiftUI framework for building interactive, scroll-linked tab navigation experiences. It provides seamless synchronization between a top navigation tab bar and scrollable content sections, enabling intuitive user interaction in views with multiple dynamic content areas.
 
----
-
-## 🚀 Features
-
-- 🎯 Scroll to specific sections via tab tap
-- 🌀 Automatically highlights the tab based on scroll position
-- 🔄 Fully SwiftUI-compatible
-- 🪄 Clean separation of UI components for customization
-- 🔧 State-driven with `@StateObject` for robust reactivity
+This framework is ideal for building content-heavy interfaces such as onboarding flows, forms, documentation pages, or settings views where users need to quickly jump between logically separated sections.
 
 ---
 
-## 📸 Preview
+## Features
 
-| Scroll-Aware Behavior |
-|------------------------|
+- Section-based navigation: Tap on a tab to scroll to the corresponding content section.
+- Scroll tracking: Automatically updates the active tab based on the current scroll position.
+- SwiftUI native: Built entirely with SwiftUI using best practices and reactive data management.
+- Modular design: Clean separation of UI components for ease of maintenance and customization.
+- Robust state management: Leverages `@StateObject` for reliable, responsive updates during scroll or tap interactions.
+
+---
+
+## Preview
+
+| Scroll-Linked Tab Behavior |
+|----------------------------|
 | ![ScrollSync](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzRtY3ljMnViNnl6cXVseDd3c2NqY3V0N2ZzcDkwZWp6bTAwYzJ0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rxreBE1Pm5i8Pq7pjT/giphy.gif) |
 
 ---
 
-## 🧩 Components
+## Components
 
-- `TabBarMenuView`: The top navigation menu
-- `TabBarItemView`: A customizable tab button
-- `TabBarBodySectionView`: Wraps the target section view
-- `TabBarBodySectionListView`: Scrollable container synced with the tab menu
-- `ScrollViewState`: Holds state like `selectedValue`, `hasToScroll`, and `scrollOffset`
+- `TabBarMenuView`: The top navigation menu displaying tab options.
+- `TabBarItemView`: A reusable and customizable tab button view.
+- `TabBarBodySectionView`: A wrapper for each scrollable content section.
+- `TabBarBodySectionListView`: The scrollable container that houses all the sections and interacts with the tab bar.
+- `ScrollViewState`: An observable object that manages the currently selected tab, scroll trigger flags, and current scroll offset.
 
 ---
 
-## 🛠️ Usage
+## Usage
 
 ```swift
 import ScrollViewTargetBehaviourKit
@@ -56,13 +58,11 @@ Or
 
 manually include the source files in your project.
 
-📄 License
+
 MIT License. Feel free to use and modify for personal or commercial projects.
 
-👤 Author
 Developed by Farrukh Rasool
 
-💬 Feedback
 Suggestions, bugs, or ideas? Feel free to open an issue!
 
 ---
